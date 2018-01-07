@@ -1,10 +1,18 @@
 *{padding: 0px;margin: 0px;}
+/*@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}*/
+body{
+    font-family: 'gothamedium';
+}
 .left-section{background-color: #183054;min-height: 750px;background: #183054;}
 .right-section{background-color: #f0f3f5;}
 .{background-color: #6a659e;}
 .hgt24{height: 24px;}
 .bg-gold{background-color: gold;color: #fff}
 .bg-silver{background-color: silver;color: #fff}
+.qty-lab{float: right;padding-right: 15px;}
 .navbar-inverse {    background-color: #6a659e;    border-color: #6a659e;
 }
 .navbar {    border-radius: 0px;    margin-bottom: 0px;}
