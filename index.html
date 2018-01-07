@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/check-boxs.css"> -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">TAJ VIVANTA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!-- <ul class="nav navbar-nav">
+        <li class=""><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul> -->
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sandeep Nair <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-1 left-section">
+<ul class="nav-ul-ver">
+  <li><a href="#"><img src="images/hotel-doors.png" class="img-responsive" alt="" align="">ROOMS</a></li>
+  <li><a href="#"><img src="images/briefcase.png" class="img-responsive"  alt="" align=""> &nbsp;ARR&DEP</a></li>
+  <li><a href="#"><img src="images/room-service.png" class="img-responsive" alt="" align="">REQUEST</a></li>
+  <li><a href="#"><img src="images/multiple-users.png" class="img-responsive" alt="" align="">CREW</a></li>
+  <li><a href="#"><img src="images/shopping-list.png" class="img-responsive" alt="" align="">INVENTRY</a></li>
+  <li><a href="#"><img src="images/mail.png" class="img-responsive" alt="" align="">MESSAGES</a></li>
+  <li><a href="#"><img src="images/settings.png" class="img-responsive" alt="" align="">SETTINNGS</a></li>
+</ul>
+</div>
+<div class="col-md-11 right-section">
+	<div class="container">
+	<div class="row room-sevice-head"> 
+	<div class="col-md-6 room-label-left">
+		<h3>room service</h3>
+	</div>
+	<div class="col-md-6">
+		<!-- <form class="navbar-form" role="search">
+    <div class="input-group add-on">
+      <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </form> -->
+  <form class="navbar-form" role="search">
+    <div class="input-group pull-right">
+      <input type="text" class="form-control " placeholder="Request Number / Room Number" name="search">
+      <div class="input-group-btn">
+        <button class="btn btn-default btn-search" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </form>
+	</div>
+	</div>
+		
+	</div>
+	<div class="container-fluid">
+	<div class="row options-block"> 
+  
+  <div class="col-md-2">
+     <form>
+    <div class="form-group">
+      <!-- <label for="sel1">Select list (select one):</label> -->
+      <select class="form-control" id="sel1" placeholder="Sort By">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      </div>
+  </form>
+  </div>
+  <div class="col-md-2">
+   <form>
+    <div class="form-group">
+      <!-- <label for="sel1">Select list (select one):</label> -->
+      <select class="form-control" id="sel1" placeholder="Filter By">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      </div>
+  </form>
+  </div>
+  <div class="col-md-4">
+  
+    <div class="btn-group btn-group-justified">
+    <a href="#" class="btn btn-default btn-sch">Scheduled(2)</a>
+    <a href="#" class="btn btn-default btn-ong">Ongoing(5)</a>
+    <a href="#" class="btn btn-default btn-com">Completed(8)</a>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <button class="btn btn-default btn-req pull-right">Add request</button>
+  </div>
+	</div>
+		
+	</div>
+	<div class="container-fluid">
+	<div class="row one-boxs-block"> 
+	<div class="col-md-3  ">
+<div class="box-color-1">
+  <p class="one-head">301 LUX <span><img src="images/.png"  alt="">123456</span></p>
+  <p class="pl13">Mr. Rajeev</p>
+  <hr>
+  <p class="pl13">Assigned to Sukumar</p>
+  <hr>
+                    <div class="checkbox">
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">
+                            Items(3) &nbsp;&nbsp;&nbsp;  Qty(3)
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" type="checkbox" >
+                        <label for="checkbox2">
+                            Veg. Fried Rice  &nbsp;&nbsp;&nbsp;  1
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input id="checkbox3" type="checkbox">
+                        <label for="checkbox3">
+                            Dal Curry &nbsp;&nbsp;&nbsp;  1
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-info">
+                        <input id="checkbox4" type="checkbox">
+                        <label for="checkbox4">
+                            Tea  &nbsp;&nbsp;&nbsp;   1
+                        </label>
+                    </div>
+                    <div class="text-center">
+                    <button class="btn btn-default btn-one">MARK COMPLETE</button>
+                    </div>
+                    
+</div>
+    
+  </div>
+	<div class="col-md-3 ">
+<div class="box-color-2">
+  <p class="two-head">401 STD</p>
+  <p class="pl13">Mr. Pillia </p>
+  <hr>
+  <p class="pl13">Assigned to Rohan</p>
+  <hr>
+                    <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" >
+                        <label for="checkbox5">
+                             Items(3) &nbsp;&nbsp;&nbsp;  Qty(3)
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" checked="">
+                        <label for="checkbox6">
+                             Veg. Fried Rice  &nbsp;&nbsp;&nbsp;  1
+                        </label>
+                    </div>
+                     <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" checked="">
+                        <label for="checkbox5">
+                           Dal Curry &nbsp;&nbsp;&nbsp;  2
+                        </label>
+                    </div>
+                    <!-- <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" checked="">
+                        <label for="checkbox6">
+                            Check me out
+                        </label>
+                    </div> -->
+                    <div class="text-center">
+                    <button class="btn btn-default btn-two">MARK COMPLETE</button>
+                    </div>
+</div>
+    
+  </div>
+	<div class="col-md-3 ">
+<div class="box-color-3">
+  <p class="three-head">321 LUX</p>
+  <p class="pl13">Mr. Pandya </p>
+  <hr>
+  <p class="pl13">Assigned to Randeep</p>
+  <hr>
+                    <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" >
+                        <label for="checkbox5">
+                            Items(3) &nbsp;&nbsp;&nbsp;  Qty(5)
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" checked="">
+                        <label for="checkbox6">
+                             Veg. Fried Rice  &nbsp;&nbsp;&nbsp;  1
+                        </label>
+                    </div>
+                     <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" checked="">
+                        <label for="checkbox5">
+                            Dal Curry &nbsp;&nbsp;&nbsp;  2
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" checked="">
+                        <label for="checkbox6">
+                            Tea &nbsp;&nbsp;&nbsp;  2
+                        </label>
+                    </div>
+                    <div class="text-center">
+                    <button class="btn btn-default btn-three">MARK COMPLETE</button>
+                    </div>
+</div>
+    
+  </div>
+	<div class="col-md-3 ">
+
+  <div class="box-color-4">
+    <p class="four-head">209 LUX</p>
+    <p class="pl13">Mr. Shepherd </p>
+    <hr>
+    <p class="pl13">Assigned to Jai Singh</p>
+    <hr>
+                    <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" >
+                        <label for="checkbox5">
+                            Items(2) &nbsp;&nbsp;&nbsp;  Qty(2)
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" >
+                        <label for="checkbox6">
+                            Veg. Fried Rice  &nbsp;&nbsp;&nbsp;  1
+                        </label>
+                    </div>
+                     <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" >
+                        <label for="checkbox5">
+                           Dal Curry  &nbsp;&nbsp;&nbsp;  +
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" >
+                        <label for="checkbox6">
+                            Tea &nbsp;&nbsp;&nbsp; 1
+                        </label>
+                    </div>
+                    <div class="text-center">
+                    <button class="btn btn-default btn-four">MARK COMPLETE</button>
+                    </div>
+  </div>  
+  </div>
+
+
+	</div>
+		
+	</div>
+	<div class="container-fluid">
+	<div class="row two-boxs-block"> 
+	<div class="col-md-3 ">
+   <div class="box-color-5">
+     <p class="four-head">291 LUX</p>
+     <p class="pl13">Mr. James</p>
+     <hr>
+     <p class="pl13">Assigned to Jai Singh</p>
+     <hr>
+                    <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" >
+                        <label for="checkbox5">
+                            Items(2) &nbsp;&nbsp;&nbsp;  Qty(2)
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" >
+                        <label for="checkbox6">
+                            Veg.Fried Rice  &nbsp;&nbsp;&nbsp; 1
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" >
+                        <label for="checkbox6">
+                            Tea &nbsp;&nbsp;&nbsp; 1
+                        </label>
+                    </div>
+                    <div class="text-center">
+                    <button class="btn btn-default btn-five">CANCELLED</button>
+                    </div>
+   </div> 
+  </div>
+	<div class="col-md-3 ">
+   <div class="box-color-"></div> 
+  </div>
+	<div class="col-md-3 ">
+   <div class="box-color-"></div> 
+  </div>
+	<div class="col-md-3 ">
+   <div class="box-color-"></div> 
+  </div>
+
+
+	</div>
+		
+	</div>
+
+</div>
+	
+</div>
+	
+</div>
+</body>
+</html>
