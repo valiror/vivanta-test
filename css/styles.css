@@ -2,6 +2,9 @@
 .left-section{background-color: #183054;min-height: 750px;background: #183054;}
 .right-section{background-color: #f0f3f5;}
 .{background-color: #6a659e;}
+.hgt24{height: 24px;}
+.bg-gold{background-color: gold;color: #fff}
+.bg-silver{background-color: silver;color: #fff}
 .navbar-inverse {    background-color: #6a659e;    border-color: #6a659e;
 }
 .navbar {    border-radius: 0px;    margin-bottom: 0px;}
@@ -19,18 +22,18 @@
 .room-label-right h3{color: #000005;text-transform: uppercase;font-weight: bolder;}
 
 .box-color-1 {
-min-height: 300px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;}
+height: 400px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;}
 .box-color-2 {
-min-height: 300px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;
+height: 400px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;
 }
 .box-color-3{
-min-height: 300px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;
+height: 400px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;
 }
 .box-color-4{
-min-height: 300px;border: 1px solid #fff;
+height: 400px;border: 1px solid #fff;
 border-radius: 15px;background-color: #ffffff;}
 .box-color-5 {
-    min-height: 300px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;}
+    height: 400px;border: 1px solid #fff;border-radius: 15px;background-color: #ffffff;}
 .box-color-6 {  
 }
 .box-color-7{  
