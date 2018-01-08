@@ -66,9 +66,10 @@
 </ul>
 </div>
 <div class="col-md-11 right-section">
-	<div class="container">
+	<div class="">
 	<div class="row room-sevice-head"> 
 	<div class="col-md-6 room-label-left">
+  <p><a href="">Requests</a> < Room Services</p>
 		<h3>room service</h3>
 	</div>
 	<div class="col-md-6">
@@ -95,33 +96,54 @@
 	<div class="container-fluid">
 	<div class="row options-block"> 
   
-  <div class="col-md-2">
+  <div class="col-md-1">
      <form>
-    <div class="form-group">
-      <!-- <label for="sel1">Select list (select one):</label> -->
+    <!-- <div class="form-group">
+      
       <select class="form-control" id="sel1" placeholder="Sort By">
         <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
       </select>
-      </div>
+      </div> -->
+      <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Sort By
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    </ul>
+  </div>
   </form>
   </div>
   <div class="col-md-2">
    <form>
-    <div class="form-group">
-      <!-- <label for="sel1">Select list (select one):</label> -->
-      <select class="form-control" id="sel1" placeholder="Filter By">
+    <!-- <div class="form-group">      
+      <select class="form-control multiple-users" id="sel1" placeholder="Filter By">
         <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
       </select>
-      </div>
+      </div> -->
+      <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Filter By
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    </ul>
+  </div>
   </form>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-5">
   
     <div class="btn-group btn-group-justified">
     <a href="#" class="btn btn-default btn-sch">Scheduled(2)</a>
@@ -142,14 +164,14 @@
   <p class="one-head">301 LUX <span class="pull-right"><img src="images/icon-sevice-1.png" class="hgt24"  alt="">123456</span></p>
   <p class="pl13">Mr. Rajeev <span class="badge bg-silver">Silver</span></p>  
   <hr>
-  <p class="pl13">Assigned to Sukumar</p>
+  <p class="pl13">Assigned to <span class="fs16">Sukumar</span></p>
   <img src="images/rose-bar.png" alt="" class="img-responsive">
   <hr>
                     <div class="checkbox">
                         <input id="checkbox1" type="checkbox">
-                        <label for="checkbox1">
+                        <label for="checkbox1" class="items-txt">
                             Items(3)  
-                        </label><span class="qty-lab"> Qty(3)</span>
+                        </label><span class="qty-lab items-txt"> Qty(3)</span>
                     </div>
                     <div class="checkbox checkbox-primary">
                         <input id="checkbox2" type="checkbox" >
@@ -182,14 +204,14 @@
   <p class="pl13">Mr. Pillia </p>
   
   <hr>
-  <p class="pl13">Assigned to Rohan</p>
+  <p class="pl13">Assigned to <span class="fs16">Rohan</span></p>
   <img src="images/green-bar.png" alt="" class="img-responsive">
   <hr>
                     <div class="checkbox checkbox-warning">
                         <input id="checkbox5" type="checkbox" >
-                        <label for="checkbox5">
+                        <label for="checkbox5" class="items-txt">
                              Items(3)   
-                        </label><span class="qty-lab"> Qty(3)</span>
+                        </label><span class="qty-lab items-txt"> Qty(3)</span>
                     </div>
                     <div class="checkbox checkbox-danger">
                         <input id="checkbox6" type="checkbox" checked="">
@@ -216,14 +238,14 @@
   <p class="pl13">Mr. Pandya <span class="badge bg-gold">Gold</span> </p>
   
   <hr>
-  <p class="pl13">Assigned to Randeep</p>
+  <p class="pl13">Assigned to <span class="fs16">Randeep</span></p>
   <img src="images/green-bar.png" alt="" class="img-responsive">
   <hr>
                     <div class="checkbox checkbox-warning">
                         <input id="checkbox5" type="checkbox" >
-                        <label for="checkbox5">
+                        <label for="checkbox5" class="items-txt">
                             Items(3)   
-                        </label><span class="qty-lab"> Qty(5)</span>
+                        </label><span class="qty-lab items-txt"> Qty(5)</span>
                     </div>
                     <div class="checkbox checkbox-danger">
                         <input id="checkbox6" type="checkbox" checked="">
@@ -239,9 +261,9 @@
                     </div>
                     <div class="checkbox checkbox-danger">
                         <input id="checkbox6" type="checkbox" checked="">
-                        <label for="checkbox6">
+                        <label for="checkbox6" class="strike-line1">
                             Tea   
-                        </label><span class="qty-lab"> 2</span>
+                        </label><span class="qty-lab strike-line1"> 2</span>
                     </div>
                     <div class="text-center">
                     <button class="btn btn-default btn-three">MARK COMPLETE</button>
@@ -256,14 +278,14 @@
     <p class="pl13">Mr. Shepherd </p>
     
     <hr>
-    <p class="pl13">Assigned to Jai Singh</p>
+    <p class="pl13">Assigned to <span class="fs16">Jai Singh</span></p>
     <img src="images/green-bar.png" alt="" class="img-responsive">
     <hr>
                     <div class="checkbox checkbox-warning">
                         <input id="checkbox5" type="checkbox" >
-                        <label for="checkbox5">
+                        <label for="checkbox5" class="items-txt">
                             Items(2)   
-                        </label><span class="qty-lab"> Qty(2)</span>
+                        </label><span class="qty-lab items-txt"> Qty(2)</span>
                     </div>
                     <div class="checkbox checkbox-danger">
                         <input id="checkbox6" type="checkbox" >
@@ -273,9 +295,9 @@
                     </div>
                      <div class="checkbox checkbox-warning">
                         <input id="checkbox5" type="checkbox" >
-                        <label for="checkbox5">
+                        <label for="checkbox5" class="strike-line">
                            Dal Curry   
-                        </label><span class="qty-lab"> +</span>
+                        </label><span class="qty-lab strike-line"> +</span>
                     </div>
                     <div class="checkbox checkbox-danger">
                         <input id="checkbox6" type="checkbox" >
@@ -300,14 +322,14 @@
      <p class="four-head">291 LUX <span class="pull-right"><img src="images/icon-sevice-1.png" class="hgt24" alt="">123456</span></p>
      <p class="pl13">Mr. James</p>
      <hr>
-     <p class="pl13">Assigned to <span>Jai Singh</span></p>
+     <p class="pl13">Assigned to <span class="fs16">Jai Singh</span></p>
      <img src="images/green-bar.png" alt="" class="img-responsive">
      <hr>
                     <div class="checkbox checkbox-warning">
                         <input id="checkbox5" type="checkbox" >
-                        <label for="checkbox5">
+                        <label for="checkbox5" class="items-txt">
                             Items(2)   
-                        </label><span class="qty-lab"> Qty(2)</span>
+                        </label><span class="qty-lab items-txt"> Qty(2)</span>
                     </div>
                     <div class="checkbox checkbox-danger">
                         <input id="checkbox6" type="checkbox" >

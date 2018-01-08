@@ -6,10 +6,14 @@ body{
 .left-section{background-color: #183054;min-height: 750px;background: #183054;}
 .right-section{background-color: #f0f3f5;}
 .{background-color: #6a659e;}
+.fs16{font-size: 16px;}
 .hgt24{height: 24px;}
 .bg-gold{background-color: gold;color: #fff}
 .bg-silver{background-color: silver;color: #fff}
 .qty-lab{float: right;padding-right: 15px;}
+.strike-line{text-decoration: line-through;color: #eb6e79;}
+.strike-line1{color: #eb6e79;}
+.items-txt{font-weight: bold !important;color: silver;}
 .navbar-inverse {    background-color: #6a659e;    border-color: #6a659e;
 }
 .navbar {    border-radius: 0px;    margin-bottom: 0px;}
@@ -23,7 +27,7 @@ body{
     color: #fff;    background-color: #6a659e;}
 .room-sevice-head{background-color: #ffffff;}
 .room-label-left{}
-.room-label-left h3{color: #000005;text-transform: uppercase;font-weight: bolder;}
+.room-label-left h3{color: #000005;text-transform: uppercase;font-weight: bolder;font-size: 20px;}
 .room-label-right h3{color: #000005;text-transform: uppercase;font-weight: bolder;}
 
 .box-color-1 {
